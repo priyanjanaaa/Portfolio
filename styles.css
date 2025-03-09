@@ -47,7 +47,7 @@ nav ul li a:hover {
 
 
 section {
-    padding: 1px 2px;
+    padding: 1px 1px;
     margin: 10px 0;
 }
 
@@ -154,21 +154,21 @@ footer {
 
 .certifications-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-columns: repeat(3, 1fr); 
     gap: 20px;
     justify-content: center;
     padding: 20px;
 }
 
-@media (max-width: 992px) { /* For tablets */
+@media (max-width: 992px) { 
     .certifications-container {
-        grid-template-columns: repeat(2, 1fr); /* 2 columns */
+        grid-template-columns: repeat(2, 1fr); 
     }
 }
 
-@media (max-width: 600px) { /* For mobile screens */
+@media (max-width: 600px) { 
     .certifications-container {
-        grid-template-columns: repeat(1, 1fr); /* 1 column */
+        grid-template-columns: repeat(1, 1fr); 
     }
 }
 
@@ -208,4 +208,5 @@ footer {
 .certification-box a:hover {
     color: #ffcc00;
 }
+
 
